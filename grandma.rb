@@ -15,12 +15,16 @@
 def speak_to_grandma(phrase)
 
 if phrase == phrase.upcase
+  if phrase == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+
+else 
   puts "NO, NOT SINCE 1938!"
 
-elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
+end
+    
+else 
 
-else
   puts "HUH?! SPEAK UP, SONNY!"
-  
+
 end
